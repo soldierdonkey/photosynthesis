@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 41">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+        font-family: Rubik-Light, Rubik;
+        font-size: 3.72px;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #2d9646;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x=".5" y=".5" width="25" height="40" rx="5.39" ry="5.39"/>
+  <text class="cls-2" transform="translate(1.92 7.97)"><tspan x="0" y="0">Ph</tspan><tspan class="cls-3" x="4.54" y="0">o</tspan><tspan x="6.59" y="0">to</tspan><tspan class="cls-5" x="10.01" y="0">s</tspan><tspan class="cls-1" x="11.77" y="0">y</tspan><tspan x="13.7" y="0">stem</tspan><tspan x="10.34" y="4.47">1</tspan></text>
+</svg>
