@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.43 45.76">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #e46825;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        fill: #231f20;
+        font-family: Rubik-Light, Rubik;
+        font-size: 5.78px;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m31.56.5h-13.7c-3.76,0-7.23,2-9.11,5.26L1.91,17.62C.03,20.87.03,24.88,1.91,28.14l6.85,11.86c1.88,3.25,5.35,5.26,9.11,5.26h13.7c3.76,0,7.23-2,9.11-5.26l6.85-11.86c1.88-3.25,1.88-7.26,0-10.52l-6.85-11.86c-1.88-3.25-5.35-5.26-9.11-5.26Z"/>
+  <text class="cls-6" transform="translate(3.95 21.16)"><tspan x="0" y="0">Gl</tspan><tspan class="cls-7" x="5.14" y="0">y</tspan><tspan x="8.11" y="0">ce</tspan><tspan class="cls-4" x="14.36" y="0">r</tspan><tspan x="16.32" y="0">alde</tspan><tspan class="cls-5" x="27.22" y="0">h</tspan><tspan class="cls-9" x="30.55" y="0">y</tspan><tspan class="cls-3" x="33.53" y="0">de </tspan><tspan x="3.74" y="6.93">3-phosph</tspan><tspan class="cls-1" x="29.49" y="6.93">a</tspan><tspan x="32.55" y="6.93">te</tspan><tspan class="cls-8" x="13.69" y="13.86">(</tspan><tspan x="15.35" y="13.86">G3</tspan><tspan class="cls-10" x="22.51" y="13.86">P</tspan><tspan x="25.99" y="13.86">)</tspan></text>
+</svg>
