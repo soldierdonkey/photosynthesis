@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.9 10.85">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Rubik-Light, Rubik;
+        font-size: 7px;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        fill: #32ff00;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <circle class="cls-3" cx="4.82" cy="4.82" r="4.32"/>
+  <circle class="cls-3" cx="13.45" cy="4.91" r="4.32"/>
+  <circle class="cls-3" cx="22.08" cy="5.01" r="4.32"/>
+  <text class="cls-1" transform="translate(3.84 7.59)"><tspan class="cls-2" x="0" y="0">P</tspan><tspan x="4.23" y="0" xml:space="preserve">  G </tspan><tspan class="cls-4" x="14.3" y="0" xml:space="preserve"> A</tspan></text>
+</svg>
