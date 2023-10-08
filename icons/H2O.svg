@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.03 48.66">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.03 46.65">
   <defs>
     <style>
       .cls-1 {
@@ -10,30 +10,40 @@
         font-weight: 300;
       }
 
-      .cls-2 {
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
         fill: #fff;
       }
 
-      .cls-2, .cls-3, .cls-4 {
+      .cls-3, .cls-4, .cls-5 {
         stroke: #231f20;
         stroke-miterlimit: 10;
       }
 
-      .cls-3 {
+      .cls-4 {
         fill: #3c55a5;
       }
 
-      .cls-4 {
+      .cls-5 {
         fill: none;
       }
     </style>
   </defs>
-  <polygon class="cls-3" points="19.33 26.51 6.83 26.51 .58 37.33 6.83 48.16 19.33 48.16 25.58 37.33 19.33 26.51"/>
-  <text class="cls-1" transform="translate(9.11 41.71)"><tspan x="0" y="0">O</tspan></text>
-  <polygon class="cls-3" points="51.21 26.51 38.71 26.51 32.46 37.33 38.71 48.16 51.21 48.16 57.46 37.33 51.21 26.51"/>
-  <text class="cls-1" transform="translate(40.98 41.71)"><tspan x="0" y="0">O</tspan></text>
-  <circle class="cls-2" cx="29.02" cy="13" r="12.5"/>
-  <line class="cls-4" x1="19.58" y1="26.68" x2="21.65" y2="23.1"/>
-  <line class="cls-4" x1="38.61" y1="26.57" x2="36.54" y2="22.98"/>
-  <text class="cls-1" transform="translate(24.82 17.69)"><tspan x="0" y="0">H</tspan></text>
+  <polygon class="cls-4" points="35.76 .5 23.26 .5 17.01 11.32 23.26 22.15 35.76 22.15 42.01 11.32 35.76 .5"/>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(25.54 15.7)"><tspan x="0" y="0">O</tspan></text>
+  </g>
+  <circle class="cls-3" cx="13" cy="33.65" r="12.5"/>
+  <line class="cls-5" x1="20.54" y1="23.15" x2="22.15" y2="20.36"/>
+  <line class="cls-5" x1="39.11" y1="23.83" x2="37.04" y2="20.24"/>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(8.8 38.34)"><tspan x="0" y="0">H</tspan></text>
+  </g>
+  <circle class="cls-3" cx="46.03" cy="33.65" r="12.5"/>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(41.83 38.34)"><tspan x="0" y="0">H</tspan></text>
+  </g>
 </svg>
