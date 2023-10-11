@@ -726,7 +726,7 @@ for(let k of CO2) {
                                                         b.kill()
                                                         Recyclecount+=1
                                                     }
-                                                    if(Recyclecount == 5) {
+                                                    if(Recyclecount == 5 && RuBPcount != 3) {
                                                         RuBPcount = 3
                                                         createSprite("game2", `cosmetic`, "RuBP", 250+Math.floor(Math.random()*100), 50+Math.floor(Math.random()*100))
                                                     }
