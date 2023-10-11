@@ -226,23 +226,23 @@ ATPcount = 0
 NADPHcount = 0
 Hcount = 0
 game1.mousemove(() => {
-    if(collision(H1, Synthase) && !H1m && !Hcount == 2) {
+    if(collision(H1, Synthase) && !H1m && Hcount != 2) {
         Synthase1()
         H1m = true
         Hcount += 1
     }
-    if(collision(H2, Synthase) && !H2m && !Hcount == 2) {
+    if(collision(H2, Synthase) && !H2m && Hcount != 2) {
         Synthase2()
         H2m = true
         Hcount += 1
     }
     if(H2O2killed){
-        if(collision(H3, Synthase) && !H3m && !Hcount == 2) {
+        if(collision(H3, Synthase) && !H3m && Hcount != 2) {
             Synthase3()
             H3m = true
             Hcount += 1
         }
-        if(collision(H4, Synthase) && !H4m && !Hcount == 2) {
+        if(collision(H4, Synthase) && !H4m && Hcount != 2) {
             Synthase4()
             H4m = true
             Hcount += 1
