@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Photosynthesis
+        </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="full">
+        <div class="main" id="main1">
+            <div class="text">
+                <span style="position: relative; left: calc(50% - 141px); font-size: 50px;">Instructions:</span> <br>
+                <b>Light dependent reactions:</b><br>
+                <br>
+                Sunlight energy (a yellow photon) hits photosystem 2 (green box), exciting the electrons and moving them into electron carriers, and then down the electron transport chain (teal boxes).<br>
+                <br>
+                Water (H2O) then breaks up to refill the missing electrons. This water breaks down into two H+ ions and an Oxygen atom.<br>
+                <br>
+                The energy from the electrons pump H+ ions from the stroma down to the thylakoid space.<br>
+                <br>
+                The hydrogen ions are used to spin the ATP Synthase (tall red tower), which converts ADP to ATP. ATP carries energy that is later used in the calvin cycle.<br>
+                <br>
+                At the end of the electron transport chain, the excess electrons combine with NADP+ to produce NADPH, an electron carrier. These electrons will later be used in the calvin cycle.<br>
+                <br>
+                <b>Calvin Cycle:</b><br>
+                <br>
+                An enzyme called RuBisCo combines—or fixates—CO2, a 1 carbon molecule onto an RuBP, an 5 carbon molecule to make 2 3-carbon molecules called PGA. The leftover 2 Oxygen become byproducts. This step is called carbon fixation.<br>
+                <br>
+                The RuBisCo is not consumed, as it is a catalyst. It is reused.<br>
+                <br>
+                ATP and NADPH give energy and electrons to turn PGA into G3P. This step is called reduction.<br>
+                <br>
+                5 G3P molecules turn into more RuBP molecules, and 1 goes to producing glucose. The process of turning G3P into RuBP is called regeneration, because the G3P is regenerating into RuBP.<br>
+                <br>
+                <b>Remember!</b><br>
+                <br>
+                The balanced equation for photosynthesis is:<br>
+                6 CO2 + 6 H2O → C6H12O6 + 6 O2<br>
+                <br>
+                <b>It's time to zoom into a chloroplast, the place where photosynthesis takes place!</b>
+                
+            </div>
+            <button id="start" class="button" style="width: 100px; left: calc(50% - 50px); top: 75%;">
+                Start!
+            </button>
+        </div>
+        <div class="main" id="main2" hidden>
+            <div class="game" id="game1">
+                <div id="send" class="image" style="background-image: url(./images/gluc.svg); background-repeat: no-repeat; width: 101px; height: 102px; top: 20px; left: 20px;"></div>
+                <div id="wall" class="image" style="background-image: url(./images/background.svg); background-repeat: repeat-x; width: 1090px; height: 150px; top: 224px; left: -50px;"></div>
+                <div id="photo2" class="image" style="background-image: url(./images/photo2.svg); width: 104px; height: 164px; top: 217px; left: 155px;"></div>
+                <div id="transport1" class="image" style="background-image: url(./images/transportchain.svg); background-size: 80px 80px; width: 80px; height: 80px; top: 219px; left: 264px;"></div>
+                <div id="tube" class="image" style="background-image: url(./images/tube.svg); background-size: 79px 194px; width: 79px; height: 194px; top: 202px; left: 349px;"></div>
+                <div id="transport2" class="image" style="background-image: url(./images/transportchain.svg); background-size: 80px 80px; width: 80px; height: 80px; top: 299px; left: 433px;"></div>
+                <div id="photo1" class="image" style="background-image: url(./images/photo1.svg); width: 104px; height: 164px; top: 217px; left: 520px;"></div>
+                <div id="transport3" class="image" style="background-image: url(./images/transportchain.svg); background-size: 80px 80px; width: 80px; height: 80px; top: 219px; left: 629px;"></div>
+                <div id="synthase" class="image" style="background-image: url(./images/Synthase.svg); width: 138px; height: 206px; top: 175px; left: 800px;"></div>
+                <div class="ADP" id="ADP1" style="top: 120px; left: 900px;"></div>
+                <div class="ADP" id="ADP2" style="top: 80px; left: 940px;"></div>
+                <div class="ADP" id="ADP3" style="top: 110px; left: 985px;"></div>
+                <div class="E-" id="E-1" style="top: 257px; left: 175px;"></div>
+                <div class="E-" id="E-2" style="top: 257px; left: 213px;"></div>
+                <div class="H" id="H+1" style="top: 160px; left: 360px;"></div>
+                <div class="H" id="H+2" style="top: 100px; left: 350px;"></div>
+                <div class="photon" id="photon1" style="top: 100px; left: 200px;"><span style="position: relative; left: 7px; top: 0px;">γ</span></div>
+                <div class="photon" id="photon2" style="top: 150px; left: 560px;"><span style="position: relative; left: 7px; top: 0px;">γ</span></div>
+                <div class="NADP" id="NADP+1" style="top: 50px; left: 620px;"></div>
+                <div class="NADP" id="NADP+2" style="top: 30px; left: 500px;"></div>
+                <div class="H2O" id="H2O1" style="top: 400px; left: 50px;"></div>
+                <div class="H2O" id="H2O2" style="top: 400px; left: 180px;"></div>
+            </div>
+            <button id="skip" class="button" style="width: 100px; left: 500px; top: 590px;">Skip!</button>
+        </div>
+        <div class="main" id="main3" hidden>
+            <div class="game" id="game2">
+                <div id="rubisco" class="image" style="background-image: url(./images/RuBisCo.svg); background-repeat: no-repeat; width: 179px; height: 61px; top: 25px; left: 800px;"></div>
+                <div id="return" class="image" style="background-image: url(./images/return.svg); background-repeat: no-repeat; width: 202px; height: 203px; top: 20px; left: 20px;"></div>
+                <div id="gluc" class="image" style="background-image: url(./images/gluc.svg); background-repeat: no-repeat; width: 202px; height: 203px; top: 320px; left: 20px;"></div>
+                <div id="recycle" class="image" style="background-image: url(./images/garbeige.svg); background-repeat: no-repeat; width: 125px; height: 196px; top: 20px; left: 260px;"></div>
+                <div id="RuBP21" class="RuBP" style="top: 150px; left: 800px;"></div>
+                <div id="CO21" class="CO2" style="top: 150px; left: 900px;"></div>
+                <div id="RuBP22" class="RuBP" style="top: 150px; left: 600px;"></div>
+                <div id="CO22" class="CO2" style="top: 150px; left: 700px;"></div>
+                <div id="RuBP23" class="RuBP" style="top: 150px; left: 400px;"></div>
+                <div id="CO23" class="CO2" style="top: 150px; left: 500px;"></div>
+                <div id="ATP21" class="ATP" style="top: 200px; left: 920px;"></div>
+                <div id="NADPH21" class="NADPH" style="top: 200px; left: 800px;"></div>
+                <div id="ATP22" class="ATP" style="top: 200px; left: 720px;"></div>
+                <div id="NADPH22" class="NADPH" style="top: 200px; left: 600px;"></div>
+                <div id="ATP23" class="ATP" style="top: 200px; left: 520px;"></div>
+                <div id="NADPH23" class="NADPH" style="top: 200px; left: 400px;"></div>
+                <div id="ATP24" class="ATP" style="top: 300px; left: 920px;"></div>
+                <div id="NADPH24" class="NADPH" style="top: 300px; left: 800px;"></div>
+                <div id="ATP25" class="ATP" style="top: 300px; left: 720px;"></div>
+                <div id="NADPH25" class="NADPH" style="top: 300px; left: 600px;"></div>
+                <div id="ATP26" class="ATP" style="top: 300px; left: 520px;"></div>
+                <div id="NADPH26" class="NADPH" style="top: 300px; left: 400px;"></div>
+            </div>
+        </div>
+        </div>
+        <div class="main" id="main4" hidden>
+            <span style="position: relative; left: calc(50% - 378px); font-size: 200px;">You Win!</span>
+        </div>
+        <div class="timer" id="timer">Press Start!</div>
+        <script src="main.js"></script>
+    </body>
+</html>

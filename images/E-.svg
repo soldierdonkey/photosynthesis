@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #27e2d8;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-family: rubik, Rubik-Light, Rubik;
+        font-size: 12px;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="13" cy="13" r="12.5"/>
+  <text class="cls-2" transform="translate(6.9 16.47)"><tspan x="0" y="0">e-</tspan></text>
+</svg>
