@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.15 22.65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        font-family: rubik, Rubik-Light, Rubik;
+        font-size: 12px;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+
+      .cls-2 {
+        fill: #3c55a5;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-2" points="19.33 .5 6.83 .5 .58 11.33 6.83 22.15 19.33 22.15 25.58 11.33 19.33 .5"/>
+  <text class="cls-1" transform="translate(9.39 15.7)"><tspan x="0" y="0">O</tspan></text>
+</svg>

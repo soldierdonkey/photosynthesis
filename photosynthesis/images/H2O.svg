@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.03 46.65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        font-family: Rubik-Light, Rubik;
+        font-size: 12px;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #3c55a5;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-4" points="35.76 .5 23.26 .5 17.01 11.32 23.26 22.15 35.76 22.15 42.01 11.32 35.76 .5"/>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(25.54 15.7)"><tspan x="0" y="0">O</tspan></text>
+  </g>
+  <circle class="cls-3" cx="13" cy="33.65" r="12.5"/>
+  <line class="cls-5" x1="20.54" y1="23.15" x2="22.15" y2="20.36"/>
+  <line class="cls-5" x1="39.11" y1="23.83" x2="37.04" y2="20.24"/>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(8.8 38.34)"><tspan x="0" y="0">H</tspan></text>
+  </g>
+  <circle class="cls-3" cx="46.03" cy="33.65" r="12.5"/>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(41.83 38.34)"><tspan x="0" y="0">H</tspan></text>
+  </g>
+</svg>
