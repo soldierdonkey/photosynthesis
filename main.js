@@ -729,6 +729,8 @@ for(let k of CO2) {
                                                     if(Recyclecount == 5 && RuBPcount != 3) {
                                                         RuBPcount = 3
                                                         createSprite("game2", `cosmetic`, "RuBP", 250+Math.floor(Math.random()*100), 50+Math.floor(Math.random()*100))
+                                                        createSprite("game2", `cosmetic`, "RuBP", 250+Math.floor(Math.random()*100), 50+Math.floor(Math.random()*100))
+                                                        createSprite("game2", `cosmetic`, "RuBP", 250+Math.floor(Math.random()*100), 50+Math.floor(Math.random()*100))
                                                     }
                                                     if(Returncount == 12 && Gluccount == 1 && RuBPcount == 3) {
                                                         setTimeout(() => {setState(4)}, 900)
